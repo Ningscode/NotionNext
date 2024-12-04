@@ -74,7 +74,7 @@ export default function ArticleDetail(props) {
                       passHref
                       legacyBehavior>
                       <div className='pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed'>
-                        <i className='far fa-calendar mr-1' />{' '}
+                        <i className='far fa-calendar-check mr-1' />{' '}
                         {post?.publishDay}
                       </div>
                     </Link>
